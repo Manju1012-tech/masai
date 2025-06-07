@@ -32,7 +32,7 @@ function App() {
             >
               {task.text}
             </span>
-            <button onClick={() => dispatch(removeTask(task.id))}>❌</button>
+            <button onClick={() => dispatch(removeTask(task.id))}>wrong</button>
           </li>
         ))}
       </ul>
